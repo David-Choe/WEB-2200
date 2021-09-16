@@ -28,9 +28,21 @@ body{
   margin: 30px;
 }
 
+#links h4{
+  text-align: center;
+}
+
 #links {
   border-radius: 5px;
   border: solid 3px #F2E852;
   background-color: #99F2C8;
   margin: 20px;
+}
+
+.F1 {
+  width: 40vw;
+}
+
+.F2 {
+  width: 33.5vw;
 }

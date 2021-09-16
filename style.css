@@ -1,0 +1,36 @@
+#top{
+  border-radius: 15px;
+  background-color: #99F2C8;
+  border: solid 3px #F2E852;
+  margin: 20px;
+  text-align: center;
+}
+
+#top h1{
+  font-size: 50px;
+}
+
+#top img{
+  width: 20vw;
+}
+
+body{
+  background-color: #DEF2C9;
+  font-family: "Times New Roman";
+  color: #020659;
+}
+
+#Goals {
+  text-align: center;
+}
+
+#List{
+  margin: 30px;
+}
+
+#links {
+  border-radius: 5px;
+  border: solid 3px #F2E852;
+  background-color: #99F2C8;
+  margin: 20px;
+}

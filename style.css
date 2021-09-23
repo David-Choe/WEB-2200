@@ -1,23 +1,32 @@
+body{
+  background-color: #DEF2C9;
+  font-family: "Sahitya";
+  color: #020659;
+}
+
 #top{
   border-radius: 15px;
   background-color: #99F2C8;
   border: solid 3px #F2E852;
-  margin: 20px;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  padding: 10px;
   text-align: center;
 }
 
 #top h1{
   font-size: 50px;
+  line-height: .8px;
 }
 
 #top img{
   width: 20vw;
+  border-radius: 15px;
 }
 
-body{
-  background-color: #DEF2C9;
-  font-family: "Times New Roman";
-  color: #020659;
+#solid{
+  border: solid #020659 2px;
+  margin: 10px;
 }
 
 #Goals {
@@ -36,6 +45,7 @@ body{
   border-radius: 5px;
   border: solid 3px #F2E852;
   background-color: #99F2C8;
+  padding: 10px;
   margin: 20px;
 }
 

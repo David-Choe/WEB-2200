@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Week 6 - Javascript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="photo">
+    <h1 id="photoText">Good Morning</h1>
+    <img id="myPhoto" src="https://images.unsplash.com/photo-1575297398753-21be26fa9f7a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmVhdXRpZnVsJTIwc3VucmlzZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="A sunrise">
+  </section>
+
+  <section id="one">
+    <h2>This is my first section</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut vehicula orci. Morbi varius nec orci in pulvinar. Donec a est sapien. Cras sit amet fringilla neque. Fusce in tempus nunc, vitae commodo ante. Curabitur augue eros, tempor vitae odio vel, bibendum vulputate dolor. Sed nec felis venenatis, faucibus nibh eget, commodo nisl. Aenean pellentesque maximus velit, vel vestibulum turpis efficitur sit amet. Sed molestie odio at quam pulvinar, quis mollis dui aliquet.
+
+      Proin vel pulvinar arcu. Morbi eu ipsum felis. Ut ante urna, laoreet pharetra orci eu, viverra fringilla lectus. Pellentesque volutpat turpis nunc, eu finibus risus fringilla sed. Etiam porttitor, arcu ac interdum ultricies, turpis lacus tincidunt nulla, ac mattis augue quam nec nibh. Aliquam aliquam mattis ligula, a placerat quam pulvinar nec. Fusce eros dui, ultricies ut ligula non, ultrices scelerisque ligula. Vestibulum lobortis, nunc tincidunt placerat gravida, nibh sem tincidunt odio, eleifend congue arcu massa quis enim. Suspendisse mi sem, ultricies id ornare eu, venenatis luctus magna. Vivamus arcu nibh, feugiat gravida lectus eu, gravida venenatis arcu. Donec diam augue, fringilla eget consectetur dictum, placerat sed nunc. Vivamus ac fringilla justo, eu egestas lacus. Nulla vulputate tellus eu arcu cursus, a tincidunt velit laoreet. Duis a maximus tellus.</p>
+  </section>
+
+  <section id="two">
+    <h2>This section contains a button</h2>
+    <button id="mybutton"> Color Change </button>
+    <button id="mybutton2"> Image Change</button>
+  </section>
+
+<script>
+  console.log("javascript working");
+  document.getElementById("mybutton").addEventListener("click",  buttonOne);
+  document.getElementById("mybutton2").addEventListener("click", buttonClicked);
+
+  function buttonOne(){
+    document.body.style.background = "#05011D";
+    document.getElementById("one").style.borderColor = "white";
+    document.getElementById("two").style.borderColor = "white";
+    document.getElementById("one").style.color = "white";
+    document.getElementById("two").style.color = "white";
+  }
+
+  function buttonClicked(){
+    document.getElementById('photoText').style.color = "white";
+    document.getElementById('photoText').innerHTML = "Good Night"
+    document.getElementById('myPhoto').src = "https://images.unsplash.com/photo-1488866022504-f2584929ca5f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3RhcnJ5JTIwbmlnaHQlMjBza3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80";
+  }
+
+</script>
+
+</body>
+
+</html>

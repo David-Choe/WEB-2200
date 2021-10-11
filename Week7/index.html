@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Week 7 - Javascript 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="quotesection">
+  <h1 id="qtext">Quotes From Samurai Champloo</h1>
+
+  <button id="lastQuote">Last Quote</button>
+
+  <button id="nextQuote">Next Quote</button>
+  </section>
+
+  <script>
+    console.log("javascript working");
+    const quotes = ["Freedom, isn’t something earned through suffering or pushing yourself. You must accept yourself just as you are and live according to the flow of things; that is true freedom.",
+    "They say 'there’s always room for dessert', but for me, it’s more like 'there’s always room if someone else is paying'.",
+    "Fishing is a life and death struggle between man and fish. Forget this and you will most certainly get hurt.",
+    "Don’t live your life making up excuses. The one making your choices is yourself!",
+    "Alright, that’s enough! You two made me a promise. You haven’t forgotten, have you? Until we find the “Samurai who smells of Sunflowers”, you two are not allowed to kill each other!",
+    "This world would be in darkness without a sense of duty."];
+    let quotecount = 0;
+
+    document.getElementById("lastQuote").addEventListener("click",  lastClicked);
+    document.getElementById("nextQuote").addEventListener("click", nextClicked);
+
+    function nextClicked(){
+      document.getElementById("qtext").innerHTML = quotes[quotecount];
+      if(quotecount>=5){
+        quotecount = 0;
+      }
+      else{
+        quotecount++;
+      }
+    }
+
+    function lastClicked(){
+      document.getElementById("qtext").innerHTML = quotes[quotecount];
+      if(quotecount<=0){
+        quotecount = 5;
+      }
+      else{
+        quotecount--;
+      }
+
+    }
+
+  </script>
+</body>
+
+</html>

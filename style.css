@@ -56,3 +56,9 @@ body{
 .F2 {
   width: 33.5vw;
 }
+
+button{
+  font-size: 30px;
+  margin: 10px;
+  padding: 7px 100px;
+}

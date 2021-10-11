@@ -1,0 +1,49 @@
+body{
+  background-color: #D8A25F;
+  font-family: Georgia, serif;
+}
+
+#qtext{
+  border: solid black 3px;
+  border-radius: 10px;
+  background-color: #DBC78E;
+  margin-top: 30vh;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  padding: 3vh 2vw 3vh 2vw;
+}
+
+
+#lastQuote{
+  background-color: #711C31;
+  color: white;
+  padding: 2vw;
+  margin-top: 1vh;
+  margin-left: 40vw;
+  margin-right: 1vw;
+}
+
+#nextQuote{
+  background-color: #711C31;
+  color: white;
+  padding: 2vw;
+  margin-top: 1vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+#lastQuote:hover{
+  border: solid black 2px;
+}
+
+#nextQuote:hover{
+  border: solid black 2px;
+}
+
+#lastQuote:active{
+  background-color: #3E2525;
+}
+
+#nextQuote:active{
+  background-color: #3E2525;
+}

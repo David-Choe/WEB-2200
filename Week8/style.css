@@ -1,0 +1,89 @@
+body{
+  background-color: #4AB7BE;
+  font-family: Garamond, serif;
+}
+
+h1{
+  text-align: center;
+  font-size:100px;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+h2{
+  text-align: center;
+  font-size: 70px;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+}
+
+#statbox h3{
+  margin-left: 1vw;
+}
+
+#mainbody{
+  display: flex;
+}
+
+#statbox{
+  border: solid black 1px;
+  border-radius: 10px;
+  background-color: white;
+  margin-left: 4vw;
+  margin-right: 1vw;
+  width: 25vw;
+  height: 60vh;
+  box-sizing: border-box;
+}
+
+#profileimg{
+  width: 90%;
+  margin: 1vh 1vw 1vh 1vw;
+}
+
+#gamebox{
+  border: solid black 1px;
+  border-radius: 10px;
+  background-color: white;
+  margin-right: 1vw;
+  width: 55vw;
+  height: 60vh;
+  box-sizing: border-box;
+}
+
+#enemyimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+/* Button layout Beginning*/
+#buttonroll{
+  position: absolute;
+  margin: 2vh 1vw 1vh 2vw;
+  background-color: #FF9595;
+}
+
+#buttonnext{
+  margin: 2vh 2vw 1vh 40vw;
+  background-color: #FF9595;
+}
+/* Ending */
+
+#textbox{
+  border: solid black 1px;
+  border-radius: 10px;
+  background-color: white;
+  margin-right: 4vw;
+  width: 25vw;
+  height: 60vh;
+}
+
+#progressbar{
+  border: solid black 1px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 1vh 4vw 1vh 4vw;
+  height: 12vh;
+}

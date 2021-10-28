@@ -17,6 +17,10 @@ h2{
   margin-bottom: 2vh;
 }
 
+#textbox h3{
+  text-align: center;
+}
+
 #statbox h3{
   margin-left: 1vw;
 }
@@ -47,7 +51,7 @@ h2{
   background-color: white;
   margin-right: 1vw;
   width: 55vw;
-  height: 60vh;
+  height: 50vh;
   box-sizing: border-box;
 }
 
@@ -58,16 +62,31 @@ h2{
   width: 45%;
 }
 
+#dice1{
+  border: solid Black 1px;
+  width: 50px;
+  height:50px;
+}
+
+#dice2{
+  float: right;
+  border: solid Black 1px;
+  width: 50px;
+  height:50px;
+}
+
 /* Button layout Beginning*/
 #buttonroll{
-  position: absolute;
-  margin: 2vh 1vw 1vh 2vw;
+  margin: 5vh 1vw 1vh 2vw;
   background-color: #FF9595;
+  padding: 15px 32px;
 }
 
 #buttonnext{
-  margin: 2vh 2vw 1vh 40vw;
+  float: right;
+  margin: 5vh 2vw 1vh 2vw;
   background-color: #FF9595;
+  padding: 10px 32px;
 }
 /* Ending */
 

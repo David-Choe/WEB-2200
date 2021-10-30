@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>GAME</title>
+  <title>A Game of Dice</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
-  <h1>Game Title</h1>
+  <h1>A Game of Dice</h1>
 
   <section id="mainbody">
     <div id="statbox">
       <img src="assets/duck.jpg" alt="duck!" id="profileimg">
       <h2> Stats </h2>
-      <h3> HP: </h3>
-    </div>
-
-    <div id="gamebox">
-      <img src="assets/duck.jpg" alt="duck!" id="enemyimg">
-      <section id="dice1">
-        <h4 id="playerDice">0</h4>
-      </section>
-      <div id="dice2">
-        <h4 id="enemyDice">0</h4>
-      </div>
-
-      <button id="buttonroll">Roll Dice</button>
-
-      <button id="buttonnext">Next Stage</button>
+      <h3 id="hp"> HP: 2 / 2 </h3>
     </div>
 
     <div id="textbox">
-      <h3> How To Play </h3>
-      <p>You are going on an adventure your going to meet some friends who want to roll some dice</p>
-      <p></p>
+      <h2 id="outcome"> Welcome </h2>
+      <p id="reading">Hello traveler and welcome to the game of dice. The rule here is simple, roll higher then you opponent to win.
+      Your dice is on the left side and the opponent's is on the right. You are about to play a friendly game with Texas duck. Now good luck
+      and may the dice roll in your favor.</p>
     </div>
   </section>
 
+  <section id="gamebox">
+    <img src="assets/texasduck.jpg" alt="duck!" id="enemyimg">
 
-  <section id="progressbar">
+    <div class="dice" id="d1">
+      <h3 id="playerDice">0</h3>
+    </div>
 
+    <div class="dice" id="d2">
+      <h3 id="enemyDice">0</h3>
+    </div>
+
+    <button class="button" id="buttonroll">Roll Dice</button>
+    <button class="button" id="buttonnext">Next Stage</button>
+  </section>
+
+  <section id="progress">
+    <section id = "backgroundbar">
+      <span class="circle" id="c1"></span>
+      <span class="circle" id="c2"></span>
+
+        <div class="progressbar">
+          <div id="myBar"></div>
+        </div>
+    </section>
   </section>
 
 

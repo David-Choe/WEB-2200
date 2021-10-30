@@ -5,104 +5,190 @@ body{
 
 h1{
   text-align: center;
-  font-size:100px;
-  margin-top: 4vh;
-  margin-bottom: 4vh;
-}
-
-h2{
-  text-align: center;
-  font-size: 70px;
-  margin-top: 1vh;
+  font-size:90px;
+  margin-top: 2vh;
   margin-bottom: 2vh;
 }
 
-#textbox h3{
-  text-align: center;
+h2{
+  font-size: 3vw;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
+
+#statbox h2{
+  float: right;
+  margin-right: 4vw;
 }
 
 #statbox h3{
-  margin-left: 1vw;
+  float: right;
+  font-size: 1.5vw;
+  margin-right: 4vw;
+  margin-top: -7vh;
+}
+
+#textbox h2{
+  text-align: center;
+}
+
+#textbox p{
+  margin: 1vh 1vw 1vh 1vw;
+}
+
+h4{
+  text-align: center;
+  margin-top: 1.5vh;
+}
+
+.dice h3{
+  font-size: 3vw;
+  margin-top: 3vh;
+  text-align: center;
 }
 
 #mainbody{
   display: flex;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  height: 18vh;
 }
 
 #statbox{
+  float:left;
+  position: relative;
   border: solid black 1px;
   border-radius: 10px;
   background-color: white;
-  margin-left: 4vw;
   margin-right: 1vw;
   width: 25vw;
-  height: 60vh;
-  box-sizing: border-box;
+}
+
+#textbox{
+  float: right;
+  border: solid black 1px;
+  border-radius: 10px;
+  background-color: white;
+  width: 75vw;
 }
 
 #profileimg{
-  width: 90%;
+  overflow: hidden;
   margin: 1vh 1vw 1vh 1vw;
+  width: 8.5vw;
 }
 
 #gamebox{
   border: solid black 1px;
   border-radius: 10px;
   background-color: white;
-  margin-right: 1vw;
-  width: 55vw;
-  height: 50vh;
-  box-sizing: border-box;
+  margin: 1vh 4vw 1vh 4vw;
+  height: 40vh;
 }
 
 #enemyimg{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 45%;
+  width: 20%;
 }
 
-#dice1{
+.dice{
   border: solid Black 1px;
-  width: 50px;
-  height:50px;
+  border-radius: 5px;
+  margin-top: -20vh;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  width: 100px;
+  height: 100px;
 }
 
-#dice2{
+#d1{
+  float: left;
+}
+
+#d2{
   float: right;
-  border: solid Black 1px;
-  width: 50px;
-  height:50px;
 }
 
 /* Button layout Beginning*/
-#buttonroll{
-  margin: 5vh 1vw 1vh 2vw;
+.button{
   background-color: #FF9595;
-  padding: 15px 32px;
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 7.5vw;
+  margin-right: 7.5vw;
+  margin-top: -4vh;
+}
+
+.button:hover{
+  border: solid black 1px;
+}
+
+.button:active{
+  background-color: #ff7575;
+}
+
+#buttonroll{
+  float: left;
 }
 
 #buttonnext{
   float: right;
-  margin: 5vh 2vw 1vh 2vw;
-  background-color: #FF9595;
-  padding: 10px 32px;
+  visibility: hidden;
 }
 /* Ending */
 
-#textbox{
-  border: solid black 1px;
-  border-radius: 10px;
-  background-color: white;
-  margin-right: 4vw;
-  width: 25vw;
-  height: 60vh;
-}
-
-#progressbar{
+/* Beginning of the progress bar */
+#progress{
   border: solid black 1px;
   background-color: white;
   border-radius: 10px;
   margin: 1vh 4vw 1vh 4vw;
   height: 12vh;
 }
+
+#backgroundbar{
+  background-color: #4AB7BE;
+  height: 10vh;
+  margin: 1vh 1vw 1vh 1vw;
+  border-radius: 10px;
+}
+
+.circle{
+  width: 60px;
+  height: 60px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  /* inline block doesn't add a line break ager the element */
+  display: inline-block;
+  margin-top: 2vh;
+}
+
+#c1{
+  background-color: #FF9595;
+  margin-left: 1vw;
+}
+
+#c2{
+  float: right;
+  margin-right: 1vw;
+}
+
+.progressbar{
+  background-color: #c4c4c4;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: -49px;
+  height: 30px;
+}
+
+#myBar{
+  background-color: #FF9595;
+  border-radius: 0px 15px 0px 0px;
+  height: 30px;
+  width: 00%;
+}
+/* End */

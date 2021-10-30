@@ -51,6 +51,7 @@ function dialogueCheck(){
   if(localStorage.getItem('stage') == 1){
     document.getElementById("outcome").innerHTML = outcomeText[0];
     document.getElementById("reading").innerHTML = readingText[6];
+    document.getElementById("enemyimg").src = "assets/win.png"
   }
   else if(localStorage.getItem('stage') == 0){
     document.getElementById("outcome").innerHTML = outcomeText[4];

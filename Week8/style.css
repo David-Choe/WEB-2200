@@ -25,7 +25,7 @@ h2{
   float: right;
   font-size: 1.5vw;
   margin-right: 4vw;
-  margin-top: -7vh;
+  margin-top: -6vh;
 }
 
 #textbox h2{
@@ -96,7 +96,7 @@ h4{
 .dice{
   border: solid Black 1px;
   border-radius: 5px;
-  margin-top: -20vh;
+  margin-top: -17vh;
   margin-left: 7vw;
   margin-right: 7vw;
   width: 100px;

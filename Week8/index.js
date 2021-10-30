@@ -1,4 +1,4 @@
-const readingText = ["Roll again","So close yet so far","How unfortunate to have died so early",
+const readingText = ["Roll again","So close yet so far","How unfortunate",
 "It's evil duck. This isn't good. You can afford to lose or else you'll really die! Fight for your life!","Try again",
 "Nice Win","Thats some good rolls you got there!"];
 const outcomeText = ["Victory","It's a Draw","You've Won","You've Lost","A New Challenger Approaches"]

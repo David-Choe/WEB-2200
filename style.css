@@ -1,16 +1,36 @@
+@media screeen and (max-width: 700px){
+  .gridcontainer{
+    display: grid;
+    grid-template-columns: (1,2fr);
+  }
+}
+
+@media screen and (min-width: 700px){
+  .gridcontainer{
+  display: grid;
+  grid-template-columns: auto;
+  }
+}
+
 body{
   background-color: #DEF2C9;
   font-family: "Sahitya";
   color: #020659;
 }
 
+.gridcontainer{
+  margin-left: 7vw;
+}
+
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
 #top{
   border-radius: 15px;
   background-color: #99F2C8;
   border: solid 3px #F2E852;
-  margin-left: 30vw;
-  margin-right: 30vw;
-  padding: 10px;
   text-align: center;
 }
 
@@ -34,7 +54,8 @@ body{
 }
 
 #List{
-  margin: 30px;
+  margin-left: 4vw;
+  margin-top: 10vh;
 }
 
 #links h4{

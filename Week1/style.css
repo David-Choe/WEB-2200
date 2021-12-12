@@ -1,0 +1,86 @@
+@media screeen and (max-width: 700px){
+  .gridcontainer{
+    display: grid;
+    grid-template-columns: (1,2fr);
+  }
+}
+
+@media screen and (min-width: 700px){
+  .gridcontainer{
+  display: grid;
+  grid-template-columns: auto;
+  }
+}
+
+body{
+  background-color: #DEF2C9;
+  font-family: "Sahitya";
+  color: #020659;
+}
+
+.gridcontainer{
+  margin-left: 7vw;
+}
+
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+#top{
+  border-radius: 15px;
+  background-color: #99F2C8;
+  border: solid 3px #F2E852;
+  text-align: center;
+}
+
+#top h1{
+  font-size: 50px;
+  line-height: .8px;
+}
+
+#top img{
+  width: 20vw;
+  border-radius: 15px;
+}
+
+#solid{
+  border: solid #020659 2px;
+  margin: 10px;
+}
+
+#Goals {
+  text-align: center;
+}
+
+#List{
+  margin-left: 4vw;
+  margin-top: 10vh;
+}
+
+#links h4{
+  text-align: center;
+}
+
+#links {
+  border-radius: 5px;
+  border: solid 3px #F2E852;
+  background-color: #99F2C8;
+  padding: 10px;
+  margin: 20px;
+}
+
+.F1 {
+  width: 30vw;
+}
+
+.F2 {
+  width: 25vw;
+}
+
+#buttonW6{
+  background-color: white;
+  padding: 20px 25px;
+  text-align: center;
+  display: inline-block;
+}

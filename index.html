@@ -1,64 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Hello Me</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>David Choe's Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sahitya">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap">
 </head>
 
 <body>
-<div class="gridcontainer">
-  <section class="item1" id="top">
-    <h1>Hello</h1>
-    <h2>My name is David Choe</h2>
-    <h3>My Pronouns are He/Him/His</h3>
-    <img src="assets/SchoolPhoto.jpg" alt="A photo of myself">
+  <section id="header">
+    <div id = "pageTitle">
+      <h1>Hello I'm <br> David Choe</h1>
+    </div>
   </section>
 
-  <section class="item2" id="List">
-    <h4>About Me</h4>
-    <ul>
-      <li>I'm from Highlands Ranch, CO</li>
-      <li>I rock climb</li>
-      <li>I play video games(Here are my favorites)
-        <ul>
-          <li>Sekiro</li>
-          <li>Persona 4</li>
-          <li>Hollow Knight</li>
-        </ul>
-      </li>
-      <li>I also love playing board games</li>
-    </ul>
-  </section>
-</div>
+  <hr class="line">
 
-<hr id="solid">
+  <section id="aboutMe">
+    <h2>About Me</h2>
+      <div id="aboutFlex">
+        <div id="whoAmI">
+          <h3>Who Am I</h3>
+          <h3>Skills</h3>
+        </div>
 
-  <section id="Goals">
-    <h4>Goals For The Course</h4>
-    <p>For this course I hope to learn web development</p>
-    <p>I am a beginner at this so I'm excited to learn more</p>
-    <p>and at the end of this course I hope to be able to add </p>
-    <p>all sorts of cool things to a website.</p>
+        <div id="whoParagraph">
+          <p id = "whoAmIPara">Hey welcome to my site. I'm from Highlands Ranch, CO studying at CU Boulder.
+          My hobbies are playing games, making some art, and some occasional rock climbing. Currently some games
+          that I'm playing right now is Nier: Automata, Apex, and Crew: Quest for Planet Nine. They're some fun
+          games that if you have the chance play.</p>
+          <p id = "mySkills">I can so some C++ but it very crusty. I made this site with my HTML and CSS skills.
+          I made this site to show off some of my other skills in photohop, illustrator and other
+          software that I use.</p>
+        </div>
+      </div>
   </section>
 
-  <section id="links">
-    <h4>Previous Lab Assignments</h4>
-    <p><a href="Week2/index.html" target="_blank">Encyclopedia</a></p>
+  <hr class="line">
 
-    <a href="Week3/Frame1PL.png" target="_blank">
-    <img src="Week3/Frame1PL.png" alt="Headings" class="F1">
-    </a>
+  <section id="works">
+    <h2>Works</h2>
+    <div id="workFlex">
+      <div id="workGroup">
+        <h3> <a class="links" href="web.html">WEB</a></h3>
+        <h3> <a class="links" href="image.html">IMAGE</a> </h3>
+        <h3> <a class="links" href="text.html">TEXT</a> </h3>
+        <h3> <a class="links" href="art.html">ART</a> </h3>
+      </div>
 
-    <a href="Week3/Frame2PL.png" target="_blank">
-    <img src="Week3/Frame2PL.png" alt="Buttons" class="F2">
-    </a>
-
-    <a id="buttonW6" href="Week6/index.html" target="_blank">Button</a>
-
+      <div id="projectImg">
+        <img id="imgSize" src="assets/duck.jpg">
+      </div>
+    </div>
   </section>
+
+  <hr class="line">
+
+  <section id="contact">
+    <h2>Contacts</h2>
+    <h4>dach7216@colorado.edu</h4>
+    <h4>303-546-9738</h4>
+  </section>
+
+  <script src="index.js"></script>
 </body>
-
 </html>

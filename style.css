@@ -34,11 +34,21 @@ h4{
 }
 
 /* start of header section */
+@media screen and (min-width: 1200px){
+  #header{
+    display: flex;
+    margin-left: 120px;
+    border-right: 800px solid #E6CD00;
+  }
+}
 
-#header{
-  display: flex;
-  margin-left: 120px;
-  border-right: 800px solid #E6CD00;
+@media screen and (max-width: 1200px){
+  #header{
+    display: flex;
+    margin-left: 120px;
+    border-right: 800px solid #E6CD00;
+    background-color: #E6CD00;
+  }
 }
 
 #pageTitle{
@@ -157,7 +167,7 @@ h4{
 
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1200px){
   #artPortfolio{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -194,7 +204,7 @@ h4{
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1200px){
   #artPortfolio{
     display: grid;
     grid-template-columns: 1fr;
@@ -241,7 +251,7 @@ h4{
     grid-column-start:span 2;
     grid-row-start:span 2;
   }
-  
+
   #textpic2{
     grid-column-start:span 2;
     grid-row-start:span 2;
@@ -269,6 +279,36 @@ h4{
   padding-left: 20px;
 }
 
+@media screen and (min-width: 768px){
+  #webPage{
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+  }
+
+  #webFigma{
+    width: 500px;
+    height: 600px;
+  }
+
+  #web1{
+    margin-top: 200px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #webPage{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  #webFigma{
+    width: 400px;
+    height: 500px;
+  }
+}
+
 /* image page */
 #ih1{
   background-color: #7690E6;
@@ -282,4 +322,22 @@ h4{
 
 #video{
   margin-left:200px;
+}
+
+@media screen and (min-width: 768px){
+  #imageBot{
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 768px){
+  #imageBot{
+    margin-left: 50px;
+  }
+  #video{
+    margin-left: 50px;
+    width:45vh;
+  }
+  #imageBoard{
+    width: 50vh;
+  }
 }

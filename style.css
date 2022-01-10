@@ -15,8 +15,8 @@ h2{
 
 h3{
   font-size: 50px;
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 15px;
+  margin-top: 15px;
   margin-bottom: 40px;
 }
 
@@ -51,28 +51,24 @@ h4{
 #aboutMe{
   margin-left: 0px;
   margin-top: 0px;
+  margin-right: 120px;
   border-left: 120px solid #17CDE6;
 }
 
-#aboutFlex{
+#whoAmI{
   display: flex;
 }
 
-#whoAmI{
-  width: 450px;
+#whoTitle{
+  width: 700px;
 }
 
-#whoAmIPara{
-  margin-top: 19px;
+#skillTitle{
+  width: 420px;
 }
 
 #mySkills{
-  margin-top: 120px;
-}
-
-#whoParagraph{
-    margin-right: 120px;
-    padding-left: 20px;
+  display: flex;
 }
 
 /* start of work section */
@@ -89,18 +85,35 @@ h4{
   margin-top: 10px;
 }
 
-#imgSize{
-  visibility: hidden;
-  width: 100%;
-  height: 380px;
-  object-fit: cover;
-  margin-left: 200px;
+@media screen and (min-width: 1200px){
+  #imgSize{
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    margin-left: 200px;
+    border: solid 2px black;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  #imgSize{
+    visibility: hidden !important;
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    margin-left: 200px;
+  }
 }
 
 /* start of contact section */
 
 #contact{
   border-left: 120px solid #E6CD00;
+  padding-bottom: 10px;
+}
+
+#contact h4{
+  margin-left: 20px;
 }
 
 /* class styling */
@@ -114,6 +127,10 @@ h4{
   outline: none;
   text-decoration: none;
   color: black;
+}
+
+.links:hover{
+  color: #E60076;
 }
 
 .artPhoto{
@@ -140,7 +157,7 @@ h4{
 
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 768px){
   #artPortfolio{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -177,13 +194,14 @@ h4{
   }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 768px){
   #artPortfolio{
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-flow:row;
     grid-auto-rows: 50vh;
     margin: 0px 100px 50px 100px;
+    width: 80%;
   }
 
   #artpic1{
@@ -210,7 +228,7 @@ h4{
   padding-left: 20px;
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 768px){
   #textPortfolio{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -218,9 +236,19 @@ h4{
     grid-auto-rows: 50vh;
     margin: 0px 200px 50px 200px;
   }
+
+  #textpic1{
+    grid-column-start:span 2;
+    grid-row-start:span 2;
+  }
+  
+  #textpic2{
+    grid-column-start:span 2;
+    grid-row-start:span 2;
+  }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 768px){
   #textPortfolio{
     display: grid;
     grid-template-columns: 1fr;

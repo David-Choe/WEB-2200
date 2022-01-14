@@ -341,3 +341,14 @@ h4{
     width: 50vh;
   }
 }
+
+/* Object page */
+#oh1{
+  background-color: #F4F593;
+  margin-top: 0px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}

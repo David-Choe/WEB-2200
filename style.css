@@ -365,3 +365,28 @@ h4{
   margin-left: 400px;
   margin-right: 400px;
 }
+
+/* Form Page */
+/* Object page */
+#fh1{
+  background-color: #F4F593;
+  margin-top: 0px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+#fI1{
+  width: 50%;
+}
+
+#fMain{
+  text-align: center;
+}
+
+#fP1{
+  margin-left: 400px;
+  margin-right: 400px;
+}

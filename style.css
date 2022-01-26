@@ -362,12 +362,15 @@ h4{
 }
 
 #oP1{
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.oImg{
+  width: 40%;
 }
 
 /* Form Page */
-/* Object page */
 #fh1{
   background-color: #F4F593;
   margin-top: 0px;

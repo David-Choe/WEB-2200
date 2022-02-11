@@ -357,8 +357,20 @@ h4{
   width: 50%;
 }
 
-#oMain{
+.oMain{
   text-align: center;
+}
+
+#labs{
+  display: flex;
+  margin-left: 200px;
+}
+
+#tab2{
+  border: solid 2px black;
+}
+
+#lab2{
 }
 
 #oP1{

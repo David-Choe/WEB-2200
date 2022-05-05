@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Object Journal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap">
+</head>
+
+<body>
+  <a id="home" href="index.html">Home</a>
+  <h1 id="oh1">Object</h1>
+
+  <section id="labs">
+      <a href="lab4.html">Lab 4</a>
+  </section>
+
+  <section class="oMain" id="lab1">
+    <h3>Final Project</h3>
+    <h4>Summary</h4>
+    <p>At the start of this project when we made our group, while brainstorming what to do for this project we ultimately came to a focus point of wanting something to do with sound. This came from some inspiration from the previous years' projects that had to do with sound. While our final product is much different from the original sketches we ended up making a musical box/cylinder. The final product is a musical box with seven buttons to play the notes on a C major scale. The box is small so it is portable and easy to play around with.</p>
+
+    <h4>The Beginning</h4>
+      <div id="">
+        <img src="assets/object/final/1.jpg" alt="First Sketches" class="oImg">
+        <p>These are the initial sketches that we came up with. While brainstorming we really like the idea of a traditional music box that you crank and then play music. We then off that wanted strings that a person could possibly play along with the music. We soon realized that this was a little too ambitious for us non of us really knew how we would get something like that going electronically. This eventually led us to look at drum kits and not at strings.</p>
+      </div>
+
+    <h4>Enclosure</h4>
+      <div id="">
+        <a href="https://youtube.com/shorts/qRgGX_LqK6E?feature=share" target="_blank"><p>Fusion 360 Model</p></a>
+        <img src="assets/object/final/3.jpg" alt="3D Printing" class="oImg">
+        <img src="assets/object/final/4.jpg" alt="The Music Box" class="oImg">
+        <p>When moving on to the enclosure we wanted something handheld this was mainly done by my partner Rishi. He also got parts for the enclosure to make sure they’d fit. It was designed in Fusion 360 and then 3D printed.</p>
+      </div>
+
+    <h4>Trouble With Parts</h4>
+      <div id="">
+        <img src="assets/object/final/2.jpg" alt="Small Buttons" class="oImg">
+        <p>While I didn’t really do much with the parts, Rishi and Soland worked on that. From what I saw they had some trouble with it. Since we wanted a small enclosure parts were small and some were so small that they didn’t work.</p>
+      </div>
+
+    <h4>Internals & Code</h4>
+      <div id="">
+        <a href="https://github.com/David-Choe/ATLS-Object-3300/blob/main/Final_Project/Final_Project.ino" target="_blank"><p>Github</p></a>
+        <a href="https://youtu.be/JE648Kt2cig" target="_blank"><p>Playtesting</p></a>
+        <img src="assets/object/final/5.jpg" alt="Wiring" class="oImg">
+        <img src="assets/object/final/finalscem1.jpg" alt="Scematics" class="oImg">
+        <p>I worked on testing the first part of the internal components. This part wasn’t too bad as much of it was wiring buttons and making sure that the code correlated correctly. I ran into issues with some lighting but having serial.print was a useful tool in getting the lighting to look better.</p>
+      </div>
+
+    <h4>Future Direction & Failed Plans</h4>
+      <div id="">
+        <p>Early in we were able to reach the goal of having some musical box that played notes and had correlating lights changing. This was simple so we wanted to do more with it. The plan was to add some nice LED effects as well as adding a Simon says type of game to it. These ultimately failed due to a lack of time as well as trouble in coding it. Since I was doing most of the coding the issue I ran into for the LED was just a lack of time. I believe the syntax for it would be pixels.setPixelColor(LED#, pixels.color()). Not enough time with the enclosure set up to do anything special with the individually controlled LEDs. The Simon Says game was a coding challenge and I couldn’t figure it out. While there were examples out there many used the single LEDs instead of the LED strip that we were using. In many of the example codes, they would use the HIGH state of the LED to compare with the correct pattern of the Simon Says game. Since we didn’t have the regular single LED in use we couldn’t code it this way. I think the way I should have tried to code it was with a premade array of the correct order of buttons. In the end, I couldn’t really figure it out.</p>
+      </div>
+
+    <h4>Final Notes</h4>
+      <div id="">
+        <a href="https://www.youtube.com/watch?v=JxojSY8K55Y&ab_channel=SpaZ" target="_blank"><p>Final Product Video</p></a>
+        <p>Although it was disappointing not being able to finish the coding part I think I’m overall satisfied with the final product.</p>
+      </div>
+
+  </section>
+
+</body>
+</html>
+
+
+<!-- <img src="assets/object/lab5/1.jpg" alt="photo of breadboard" class="oImg">
+<video width="50%" controls>
+  <source src="assets/object/lab5/2.mp4" type="video/mp4">
+</video>
+
+<img src="assets/object/lab5/3.jpg" alt="photo of breadboard" class="oImg">
+<img src="assets/object/lab5/4.jpg" alt="photo of breadboard" class="oImg">
+<video width="50%" controls>
+  <source src="assets/object/lab5/5.mp4" type="video/mp4">
+</video> -->
